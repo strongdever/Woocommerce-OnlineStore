@@ -1,0 +1,10 @@
+2023-07-12T06:48:51+00:00 CRITICAL Uncaught Error: Undefined constant "AI1WM_MAX_FILE_SIZE" in D:\xampp\htdocs\woocommerce\wp-content\plugins\all-in-one-wp-migration-unlimited-extension\lib\controller\class-ai1wmue-main-controller.php:266
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): Ai1wmue_Main_Controller->enqueue_import_scripts_and_styles('all-in-one-wp-m...')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'all-in-one-wp-m...')
+#4 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(239): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\woocommerce\wp-content\plugins\all-in-one-wp-migration-unlimited-extension\lib\controller\class-ai1wmue-main-controller.php on line 266
+

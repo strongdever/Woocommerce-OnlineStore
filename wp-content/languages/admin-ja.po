@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.2.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-07 19:56:16+0000\n"
+"PO-Revision-Date: 2023-03-30 13:21:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,7 +51,7 @@ msgstr "次へ"
 #: wp-admin/export.php:60 wp-admin/includes/class-custom-background.php:101
 #: wp-admin/includes/class-custom-image-header.php:138 wp-admin/index.php:133
 #: wp-admin/link-manager.php:80 wp-admin/media-new.php:62 wp-admin/media.php:98
-#: wp-admin/my-sites.php:53 wp-admin/nav-menus.php:690
+#: wp-admin/my-sites.php:53 wp-admin/nav-menus.php:687
 #: wp-admin/options-discussion.php:33 wp-admin/options-general.php:61
 #: wp-admin/options-media.php:42 wp-admin/options-permalink.php:67
 #: wp-admin/options-reading.php:54 wp-admin/options-writing.php:54
@@ -188,131 +188,131 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/understand-comment
 msgid "<a href=\"https://wordpress.org/documentation/article/customizer/\">Documentation on Customizer</a>"
 msgstr "<a href=\"https://wordpress.org/documentation/article/customizer/\">カスタマイザーの解説</a>"
 
-#: wp-admin/about.php:261
+#: wp-admin/about.php:204
 msgid "Default WordPress themes offer better privacy with Google Fonts now included."
 msgstr "デフォルトの WordPress テーマは Google フォントを含むようにしたので、より優れたプライバシーを提供します。"
 
-#: wp-admin/about.php:260
+#: wp-admin/about.php:203
 msgid "Local fonts in themes"
 msgstr "テーマのローカルフォント"
 
-#: wp-admin/about.php:251
+#: wp-admin/about.php:194
 msgid "Options to import your favorite widgets from Classic themes to Block themes."
 msgstr "お気に入りのウィジェットをクラシックテーマからブロックテーマにインポートするオプションです。"
 
-#: wp-admin/about.php:250
+#: wp-admin/about.php:193
 msgid "Importing widgets"
 msgstr "ウィジェットのインポート"
 
-#: wp-admin/about.php:241
+#: wp-admin/about.php:184
 msgid "Choose to keep top-level group blocks fixed to the top of a page as visitors scroll."
 msgstr "訪問者がスクロールするときに、トップレベルのグループブロックをページの上部に固定することを選択します。"
 
-#: wp-admin/about.php:240
+#: wp-admin/about.php:183
 msgid "Sticky positioning"
 msgstr "先頭固定表示"
 
-#: wp-admin/about.php:228
+#: wp-admin/about.php:171
 msgid "Power up your site any way you wish. Add CSS to your site, or your blocks, for another level of control over your site&#8217;s look and feel."
 msgstr "あなたが望む方法でサイトをパワーアップします。サイト、またはブロックへ CSS を追加して、サイトの外観や雰囲気を別のレベルで制御します。"
 
-#: wp-admin/about.php:221
+#: wp-admin/about.php:164
 msgid "Perfect the design on one type of block, then copy and paste those styles to other blocks to get just the look you want."
 msgstr "1つのタイプのブロックでデザインを完成させた後で、それらのスタイルをコピーして他のブロックへ貼り付けることで、同じ見た目の外観を実現します。"
 
-#: wp-admin/about.php:220
+#: wp-admin/about.php:163
 msgid "Copy and paste styles"
 msgstr "スタイルのコピーとペースト"
 
-#: wp-admin/about.php:214
+#: wp-admin/about.php:157
 msgid "Use the new Style Book to get a complete overview of how every block in your site&#8217;s library looks. All in one place, all at a glance."
 msgstr "新しいスタイルブックを使用すると、サイトのライブラリ内のすべてのブロックがどのように見えるかの完全な概要を取得します。1つの場所で、すべてを一目で確認できます。"
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:147
 msgid "Stable and ready for you to dive in and explore: 6.2 is your personal invitation to discover what the next generation of WordPress—and Block themes—can do."
 msgstr "探求の準備が完全に整いました。バージョン6.2は、次世代の WordPress とブロックテーマを発見する旅への招待状です。"
 
-#: wp-admin/about.php:203
+#: wp-admin/about.php:146
 msgid "Experience the Site Editor, now out of beta"
 msgstr "サイトエディターを体験してください。もうベータ版ではありません"
 
-#: wp-admin/about.php:197
+#: wp-admin/about.php:140
 msgid "For those times you want to be alone with your ideas. You can now hide all your panels and controls, leaving you free to bring your content to life."
 msgstr "アイデアと向かい合いたい時のために。パネルやコントロールをすべて隠して、コンテンツに命を吹き込む作業に没頭できるようになりました。"
 
-#: wp-admin/about.php:196
+#: wp-admin/about.php:139
 msgid "Focus on writing with Distraction Free mode"
 msgstr "集中執筆モードで執筆に専念"
 
-#: wp-admin/about.php:187
+#: wp-admin/about.php:130
 msgid "Openverse&#8217;s library catalogs over 600 million free, openly licensed stock images and audio—and now it&#8217;s directly integrated into the Editor."
 msgstr "Openverse ライブラリは、6億以上の無料でオープンライセンスのストック画像と音声ファイルをカタログ化しており、エディター内に直接統合されました。"
 
-#: wp-admin/about.php:186
+#: wp-admin/about.php:129
 msgid "Explore Openverse media right from the Editor"
 msgstr "エディターから Openverse のメディアを探索"
 
-#: wp-admin/about.php:180
+#: wp-admin/about.php:123
 msgid "Discover a new collection of header and footer patterns to choose from. Use them with any block theme as a quick, high-quality starting point for your site&#8217;s templates."
 msgstr "選択可能なヘッダーパターンとフッターパターンの新しいコレクションがあります。任意のブロックテーマで使用でき、サイトテンプレート用の簡便で高品質な出発点となります。"
 
-#: wp-admin/about.php:179
+#: wp-admin/about.php:122
 msgid "Build faster with headers and footers for block themes"
 msgstr "ブロックテーマのヘッダーとフッターを素早く構築"
 
-#: wp-admin/about.php:165
+#: wp-admin/about.php:108
 msgid "Your block settings sidebar is better organized with tabs for Settings and Styles. So the tools you need are easy to identify and access."
 msgstr "ブロック設定のサイドバーが、「設定」と「スタイル」のタブに整理されて見やすくなりました。必要なツールがすぐに見つかり、使いやすくなっています。"
 
-#: wp-admin/about.php:164
+#: wp-admin/about.php:107
 msgid "Find the controls you want when you need them"
 msgstr "必要なときに必要なコントロールを発見"
 
-#: wp-admin/about.php:158
+#: wp-admin/about.php:101
 msgid "A refreshed design gives you more visibility and easier access to the content you need. Use the Media tab to drag and drop content from your existing Media Library quickly. Find patterns faster with a split view that lets you navigate categories and see previews all at once."
 msgstr "デザインが更新され、必要なコンテンツを見つけやすく、簡単にアクセスできるようになりました。「メディア」タブを使用すると既存のメディアライブラリからコンテンツを素早くドラッグ & ドロップできます。スプリットビューではカテゴリーを移動しながら同時にプレビューでき、パターンを素早く見つけられます。"
 
-#: wp-admin/about.php:157
+#: wp-admin/about.php:100
 msgid "Discover a smoother experience for the Block Inserter"
 msgstr "ブロックインサーターのよりスムーズな体験を発見"
 
-#: wp-admin/about.php:141
+#: wp-admin/about.php:84
 msgid "A new sidebar experience makes it easier to edit your site&#8217;s navigation. Add, remove, and reorder menu items faster—no matter how complex your menus are."
 msgstr "新しいサイドバー体験では、サイトナビゲーションの編集がより簡単になりました。どんなに複雑なメニューでも、素早くメニューを追加、削除、並び替えできます。"
 
-#: wp-admin/about.php:140
+#: wp-admin/about.php:83
 msgid "Manage your menu in more ways with the Navigation block"
 msgstr "ナビゲーションブロックを使ったもっと多くの方法でメニューを管理する"
 
-#: wp-admin/about.php:134
+#: wp-admin/about.php:77
 msgid "An updated interface gives you more control over your site editing experience. Browse through full previews of your templates and template parts, then jump into editing your site from wherever you choose."
 msgstr "サイト編集体験ではインターフェイスが更新され、これまで以上に自由にコントロールできるようになりました。テンプレートやテンプレートパーツを完全にプレビューでき、選択した好きな場所からサイトを編集できます。"
 
-#: wp-admin/about.php:133
+#: wp-admin/about.php:76
 msgid "Explore and edit your site from the Site Editor"
 msgstr "サイトエディターでサイトを探索し編集"
 
 #. translators: 1: Count of enhancements, 2: Count of bug fixes.
-#: wp-admin/about.php:117
+#: wp-admin/about.php:60
 msgid "WordPress 6.2 includes more than %1$s enhancements and %2$s bug fixes. This page highlights the latest features since the November 2022 release of WordPress 6.1. From quick highlights to developer resources, there&#8217;s a lot to explore."
 msgstr "WordPress 6.2には%1$s以上の機能拡張と%2$sのバグフィックスが含まれます。このページでは2022年11月にリリースされた WordPress 6.1以降の最新機能を紹介します。クイックハイライトから開発者向けリソースまで、多くの探求ポイントがあります。"
 
 #. translators: The localized WordPress download URL.
-#: wp-admin/about.php:400
+#: wp-admin/about.php:343
 msgid "https://wordpress.org/download/"
 msgstr "http://ja.wordpress.org/download/"
 
 #. translators: %s: The major version of WordPress for this branch.
-#: wp-admin/about.php:397
+#: wp-admin/about.php:340
 msgid "This is the final release of WordPress %s"
-msgstr "これは WordPress %s の最新リリースです"
+msgstr "これは WordPress %sの最後のリリースです"
 
 #: wp-admin/includes/theme.php:336
 msgid "Site Editor"
 msgstr "サイトエディター"
 
 #. translators: 1: Learn WordPress link.
-#: wp-admin/about.php:285
+#: wp-admin/about.php:228
 msgid "Explore <a href=\"%s\">learn.wordpress.org</a> for tutorial videos, online workshops, courses, and lesson plans for Meetup organizers, including new features in WordPress."
 msgstr "<a href=\"%s\">learn.wordpress.org</a> で、チュートリアル動画、オンラインワークショップ、コース、WordPress の新機能紹介を含む Meetup イベント主催者向けのレッスンプランをご覧ください。"
 
@@ -643,31 +643,31 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "この問題が再発しないようにするためには、WordPress コア開発者にご連絡ください。"
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:394
+#: wp-admin/about.php:337
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "重要: お使いの WordPress バージョン (%1$s) では、近い将来にセキュリティアップデートの受信が終了します。サイトを安全に保つため、<a href=\"%2$s\">最新バージョンの WordPress に更新</a>してください。"
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:391
+#: wp-admin/about.php:334
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "重要: お使いの WordPress バージョン (%1$s) はサポートされなくなったため、サイトでセキュリティ更新プログラムを受け取ることができません。サイトを安全に保つため、<a href=\"%2$s\">最新バージョンの WordPress に更新</a>してください。"
 
-#: wp-admin/about.php:306
+#: wp-admin/about.php:249
 msgid "https://make.wordpress.org/core/2023/03/09/wordpress-6-2-field-guide/"
 msgstr "https://make.wordpress.org/core/2023/03/09/wordpress-6-2-field-guide/"
 
 #. translators: 1: WordPress Release Notes link, 2: WordPress version number.
-#: wp-admin/about.php:323
+#: wp-admin/about.php:266
 msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for more information on the included enhancements and issues fixed, installation information, developer notes and resources, release contributors, and the list of file changes in this release."
 msgstr "詳細な情報については <a href=\"%1$s\">WordPress %2$s リリースノート</a>を参照してください。拡張された機能や修正された問題、インストール情報、開発者向け情報やリソース、このバージョンのコントリビューター、変更されたファイル一覧が記載されています。"
 
 #. translators: %s: WordPress Field Guide link.
-#: wp-admin/about.php:305
+#: wp-admin/about.php:248
 msgid "Check out the latest version of the <a href=\"%s\">WordPress Field Guide</a>. It is overflowing with detailed developer notes to help you build with WordPress."
 msgstr "<a href=\"%s\">WordPress フィールドガイド</a>の最新版をチェックしてください。WordPress 構築における詳細な開発者情報が盛りだくさんです。"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:276
+#: wp-admin/about.php:219
 msgid "Learn more about WordPress %s"
 msgstr "WordPress %sの詳細"
 
@@ -972,11 +972,11 @@ msgstr "「プライバシー」画面では、プライバシーポリシーペ
 msgid "Individual posts may override these settings. Changes here will only be applied to new posts."
 msgstr "個々の投稿は、この設定を上書きできます。ここでの変更は、新しい投稿にのみ適用されます。"
 
-#: wp-admin/nav-menus.php:525
+#: wp-admin/nav-menus.php:522
 msgid "Menu item moved to the top"
 msgstr "メニュー項目を先頭に移動しました。"
 
-#: wp-admin/nav-menus.php:522
+#: wp-admin/nav-menus.php:519
 msgid "Menu item removed"
 msgstr "メニュー項目が削除されました"
 
@@ -1123,25 +1123,25 @@ msgstr "変更を保存する前にファイル %1$s を書き込み可能にす
 msgid "Rewrite rules:"
 msgstr "リライトルール:"
 
-#: wp-admin/nav-menus.php:1084
+#: wp-admin/nav-menus.php:1081
 msgid "List of menu items selected for deletion:"
 msgstr "削除するものとして選択されたメニュー項目一覧:"
 
-#: wp-admin/nav-menus.php:1082
+#: wp-admin/nav-menus.php:1079
 msgid "Remove Selected Items"
 msgstr "選択した項目を削除"
 
-#: wp-admin/nav-menus.php:1045 wp-admin/nav-menus.php:1080
+#: wp-admin/nav-menus.php:1042 wp-admin/nav-menus.php:1077
 msgid "Bulk Select"
 msgstr "一括選択"
 
 #. translators: %s: Item name.
-#: wp-admin/nav-menus.php:520
+#: wp-admin/nav-menus.php:517
 msgid "Deleted menu item: %s."
 msgstr "削除したメニュー項目: %s。"
 
 #. translators: %s: Item name.
-#: wp-admin/nav-menus.php:518
+#: wp-admin/nav-menus.php:515
 msgid "item %s"
 msgstr "項目 %s"
 
@@ -1387,11 +1387,11 @@ msgid "Want more events? <a href=\"%s\">Help organize the next one</a>!"
 msgstr "もっとイベントがあるといいなと思いませんか ? <a href=\"%s\">次のイベントを企画してください</a> !"
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/ajax-actions.php:5557
+#: wp-admin/includes/ajax-actions.php:5553
 msgid "A password reset link was emailed to %s."
 msgstr "パスワードリセットリンクが %s にメールされました。"
 
-#: wp-admin/includes/ajax-actions.php:5547
+#: wp-admin/includes/ajax-actions.php:5543
 msgid "Cannot send password reset, permission denied."
 msgstr "パスワードリセットを送信できません。権限がありません。"
 
@@ -1593,7 +1593,7 @@ msgstr "新しいアプリケーションパスワードを追加"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "アプリケーションパスワードの作成に必要ですが、ユーザーの更新には不要です。"
 
-#: wp-admin/about.php:341
+#: wp-admin/about.php:284
 msgid "Go to Updates"
 msgstr "更新へ移動"
 
@@ -1752,10 +1752,10 @@ msgstr "最終使用日"
 
 #. translators: 1: The Site Health action that is no longer used by core. 2:
 #. The new function that replaces it.
-#: wp-admin/includes/ajax-actions.php:5285
-#: wp-admin/includes/ajax-actions.php:5318
-#: wp-admin/includes/ajax-actions.php:5351
-#: wp-admin/includes/ajax-actions.php:5401
+#: wp-admin/includes/ajax-actions.php:5281
+#: wp-admin/includes/ajax-actions.php:5314
+#: wp-admin/includes/ajax-actions.php:5347
+#: wp-admin/includes/ajax-actions.php:5397
 msgid "The Site Health check for %1$s has been replaced with %2$s."
 msgstr "%1$s のサイトヘルスチェックは %2$s に置き換わりました。"
 
@@ -1989,7 +1989,7 @@ msgctxt "theme"
 msgid "Activate &#8220;%s&#8221;"
 msgstr "&#8220;%s&#8221; を有効化"
 
-#: wp-admin/includes/ajax-actions.php:5491
+#: wp-admin/includes/ajax-actions.php:5487
 msgid "Sorry, you are not allowed to modify plugins."
 msgstr "プラグインを編集する権限がありません。"
 
@@ -2237,20 +2237,20 @@ msgctxt "plugin"
 msgid "<strong>Error:</strong> Current versions of WordPress (%1$s) and PHP (%2$s) do not meet minimum requirements for %3$s. The plugin requires WordPress %4$s and PHP %5$s."
 msgstr "<strong>エラー:</strong> 現在の WordPress (%1$s) と PHP (%2$s) のバージョンが %3$s の最低要件を満たしていません。プラグインには WordPress %4$sと PHP %5$sが必要です。"
 
-#: wp-admin/includes/ajax-actions.php:5513
+#: wp-admin/includes/ajax-actions.php:5509
 msgid "Invalid data. The item does not exist."
 msgstr "無効なデータ。この項目は存在しません。"
 
-#: wp-admin/includes/ajax-actions.php:5484
-#: wp-admin/includes/ajax-actions.php:5509
+#: wp-admin/includes/ajax-actions.php:5480
+#: wp-admin/includes/ajax-actions.php:5505
 msgid "Invalid data. Unknown type."
 msgstr "無効なデータ。不明な種類。"
 
-#: wp-admin/includes/ajax-actions.php:5479
+#: wp-admin/includes/ajax-actions.php:5475
 msgid "Invalid data. Unknown state."
 msgstr "無効なデータ。不明な状態。"
 
-#: wp-admin/includes/ajax-actions.php:5473
+#: wp-admin/includes/ajax-actions.php:5469
 msgid "Invalid data. No selected item."
 msgstr "無効なデータ。項目が何も選択されていません。"
 
@@ -3002,7 +3002,7 @@ msgstr "<a href=\"https://ja.wordpress.org/support/article/settings-permalinks-s
 msgid "<a href=\"https://wordpress.org/documentation/article/dashboard-updates-screen/\">Documentation on Updating WordPress</a>"
 msgstr "<a href=\"https://wordpress.org/support/article/dashboard-updates-screen/\">WordPress の更新についての解説</a>"
 
-#: wp-admin/nav-menus.php:689
+#: wp-admin/nav-menus.php:686
 msgid "<a href=\"https://wordpress.org/documentation/article/appearance-menus-screen/\">Documentation on Menus</a>"
 msgstr "<a href=\"https://wordpress.org/support/article/appearance-menus-screen/\">メニューの解説</a>"
 
@@ -3542,17 +3542,17 @@ msgid "The authenticity of %s could not be verified as signature verification is
 msgstr "このシステムでの署名の検証ができないため、%s の信頼性を確認できませんでした。"
 
 #. translators: %s: Eraser friendly name.
-#: wp-admin/includes/ajax-actions.php:5160
+#: wp-admin/includes/ajax-actions.php:5156
 msgid "Eraser callback is not valid: %s."
 msgstr "消去のコールバックが無効です: %s。"
 
 #. translators: %s: Eraser friendly name.
-#: wp-admin/includes/ajax-actions.php:5150
+#: wp-admin/includes/ajax-actions.php:5146
 msgid "Eraser does not include a callback: %s."
 msgstr "消去にコールバックを含めることはできません: %s。"
 
-#: wp-admin/includes/ajax-actions.php:4872
-#: wp-admin/includes/ajax-actions.php:5063
+#: wp-admin/includes/ajax-actions.php:4868
+#: wp-admin/includes/ajax-actions.php:5059
 msgid "Sorry, you are not allowed to perform this action."
 msgstr "この操作を実行する権限がありません。"
 
@@ -3739,7 +3739,7 @@ msgid "Great job!"
 msgstr "すばらしい !"
 
 #: wp-admin/about.php:38 wp-admin/credits.php:42 wp-admin/freedoms.php:39
-#: wp-admin/includes/ms.php:1119 wp-admin/nav-menus.php:727
+#: wp-admin/includes/ms.php:1119 wp-admin/nav-menus.php:724
 #: wp-admin/options-privacy.php:161 wp-admin/privacy-policy-guide.php:44
 #: wp-admin/privacy.php:33 wp-admin/site-health.php:131
 msgid "Secondary menu"
@@ -4725,31 +4725,31 @@ msgstr "<a href=\"%1$s\">WordPress %2$s</a> は MySQL バージョン%3$s以上�
 msgid "You cannot update because <a href=\"%1$s\">WordPress %2$s</a> requires PHP version %3$s or higher. You are running version %4$s."
 msgstr "<a href=\"%1$s\">WordPress %2$s</a> は PHP バージョン%3$s以上が必要なため、更新できません。現在の PHP バージョンは%4$sです。"
 
-#: wp-admin/nav-menus.php:983
+#: wp-admin/nav-menus.php:980
 msgid "Add menu items"
 msgstr "メニュー項目を追加"
 
 #. translators: %s: URL to create a new menu.
-#: wp-admin/nav-menus.php:944
+#: wp-admin/nav-menus.php:941
 msgid "or <a href=\"%s\">create a new menu</a>. Do not forget to save your changes!"
 msgstr "または<a href=\"%s\">新しいメニューを作成しましょう</a>。変更の保存をお忘れなく。"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/nav-menus.php:889 wp-admin/nav-menus.php:959
+#: wp-admin/nav-menus.php:886 wp-admin/nav-menus.php:956
 msgid "Click the Save Menu button to save your changes."
 msgstr "「メニューを保存」ボタンをクリックし、変更を保存してください。"
 
 #. translators: %s: URL to create a new menu.
-#: wp-admin/nav-menus.php:874
+#: wp-admin/nav-menus.php:871
 msgid "Edit your menu below, or <a href=\"%s\">create a new menu</a>. Do not forget to save your changes!"
 msgstr "以下のメニューを編集するか、<a href=\"%s\">新しいメニューを作成しましょう</a>。変更の保存をお忘れなく。"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/nav-menus.php:865
+#: wp-admin/nav-menus.php:862
 msgid "Fill in the Menu Name and click the Create Menu button to create your first menu."
 msgstr "メニュー名を入力して「メニューを作成」ボタンをクリックし、最初のメニューを作成しましょう。"
 
-#: wp-admin/nav-menus.php:861
+#: wp-admin/nav-menus.php:858
 msgid "Create your first menu below."
 msgstr "最初のメニューを以下で作成しましょう。"
 
@@ -4864,11 +4864,11 @@ msgctxt "plugin"
 msgid "Cannot Install"
 msgstr "インストール不可"
 
-#. translators: %s: WordPress version.
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:67 wp-admin/about.php:93 wp-admin/about.php:326
-#: wp-admin/includes/update.php:306 wp-admin/index.php:119
-#: wp-admin/install.php:247 wp-admin/update-core.php:94 wp-admin/upgrade.php:81
+#. translators: %s: WordPress version.
+#: wp-admin/about.php:269 wp-admin/includes/update.php:306
+#: wp-admin/index.php:119 wp-admin/install.php:247 wp-admin/update-core.php:94
+#: wp-admin/upgrade.php:81
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -5469,7 +5469,7 @@ msgid "Report generated for"
 msgstr "レポート生成先"
 
 #. translators: %s: Exporter array index.
-#: wp-admin/includes/ajax-actions.php:4956
+#: wp-admin/includes/ajax-actions.php:4952
 msgid "Exporter array at index %s does not include a friendly name."
 msgstr "インデックス %s のエクスポートツールの配列にフレンドリーネームが含まれていません。"
 
@@ -5481,72 +5481,72 @@ msgstr "このサイトで個人データを消去する権限がありません
 msgid "Sorry, you are not allowed to export personal data on this site."
 msgstr "このサイトの個人データをエクスポートする権限がありません。"
 
-#: wp-admin/includes/ajax-actions.php:5123
+#: wp-admin/includes/ajax-actions.php:5119
 msgid "Eraser index is out of range."
 msgstr "消去ツールインデックスが範囲外です。"
 
-#: wp-admin/includes/ajax-actions.php:5082
+#: wp-admin/includes/ajax-actions.php:5078
 msgid "Missing eraser index."
 msgstr "消去ツールインデックスがありません。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:5007
+#: wp-admin/includes/ajax-actions.php:5003
 msgid "Expected done (boolean) in response array from exporter: %s."
 msgstr "エクスポートツール %s からのレスポンス配列に done (ブーリアン) が含まれていません。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:5000
+#: wp-admin/includes/ajax-actions.php:4996
 msgid "Expected data array in response array from exporter: %s."
 msgstr "エクスポートツール %s からのレスポンス配列にデータ配列が含まれていません。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4993
+#: wp-admin/includes/ajax-actions.php:4989
 msgid "Expected data in response array from exporter: %s."
 msgstr "エクスポートツール %s からのレスポンス配列にデータが含まれていません。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4986
+#: wp-admin/includes/ajax-actions.php:4982
 msgid "Expected response as an array from exporter: %s."
 msgstr "エクスポートツールからのレスポンスに配列が含まれていません: %s。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4972
+#: wp-admin/includes/ajax-actions.php:4968
 msgid "Exporter callback is not a valid callback: %s."
 msgstr "不正なエクスポートツールのコールバック: %s。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4965
+#: wp-admin/includes/ajax-actions.php:4961
 msgid "Exporter does not include a callback: %s."
 msgstr "エクスポートツールにコールバックが含まれていません: %s。"
 
 #. translators: %s: Exporter array index.
-#: wp-admin/includes/ajax-actions.php:4949
+#: wp-admin/includes/ajax-actions.php:4945
 msgid "Expected an array describing the exporter at index %s."
 msgstr "インデックス %s にエクスポートツールを説明する配列が含まれていません。"
 
-#: wp-admin/includes/ajax-actions.php:4935
+#: wp-admin/includes/ajax-actions.php:4931
 msgid "Exporter index is out of range."
 msgstr "エクスポートツールのインデックスが範囲外です。"
 
-#: wp-admin/includes/ajax-actions.php:4931
+#: wp-admin/includes/ajax-actions.php:4927
 msgid "Exporter index cannot be negative."
 msgstr "エクスポートツールのインデックスを負の値とすることはできません。"
 
-#: wp-admin/includes/ajax-actions.php:4925
+#: wp-admin/includes/ajax-actions.php:4921
 msgid "An exporter has improperly used the registration filter."
 msgstr "エクスポートツールが登録フィルターを不適切に使用しました。"
 
-#: wp-admin/includes/ajax-actions.php:4896
-#: wp-admin/includes/ajax-actions.php:5088
+#: wp-admin/includes/ajax-actions.php:4892
+#: wp-admin/includes/ajax-actions.php:5084
 msgid "Missing page index."
 msgstr "ページインデックスがありません。"
 
-#: wp-admin/includes/ajax-actions.php:4890
+#: wp-admin/includes/ajax-actions.php:4886
 msgid "Missing exporter index."
 msgstr "エクスポートツールインデックスがありません。"
 
-#: wp-admin/includes/ajax-actions.php:4881
-#: wp-admin/includes/ajax-actions.php:5072
+#: wp-admin/includes/ajax-actions.php:4877
+#: wp-admin/includes/ajax-actions.php:5068
 msgid "Invalid request type."
 msgstr "無効なリクエストタイプ。"
 
@@ -5681,7 +5681,7 @@ msgstr "個人データのエクスポート"
 msgid "Personal Data Export for %s"
 msgstr "%s の個人データをエクスポート"
 
-#: wp-admin/includes/ajax-actions.php:4886
+#: wp-admin/includes/ajax-actions.php:4882
 msgid "A valid email address must be given."
 msgstr "有効なメールアドレスが必要です。"
 
@@ -5752,61 +5752,61 @@ msgstr "確認リクエストの再送信に成功しました。"
 msgid "Unable to initiate confirmation request."
 msgstr "確認リクエストを開始できませんでした。"
 
-#: wp-admin/includes/ajax-actions.php:4868
-#: wp-admin/includes/ajax-actions.php:5058
+#: wp-admin/includes/ajax-actions.php:4864
+#: wp-admin/includes/ajax-actions.php:5054
 msgid "Invalid request ID."
 msgstr "不正なリクエスト ID。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5232
+#: wp-admin/includes/ajax-actions.php:5228
 msgid "Expected done flag in response array from %1$s eraser (index %2$d)."
 msgstr "%1$s 消去ツール (インデックス %2$d) からのレスポンス配列に完了フラッグが含まれていません。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5221
+#: wp-admin/includes/ajax-actions.php:5217
 msgid "Expected messages key to reference an array in response array from %1$s eraser (index %2$d)."
 msgstr "%1$s 消去ツール (インデックス%2$d) からのレスポンス配列に、配列を参照するメッセージキーが含まれていません。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5210
+#: wp-admin/includes/ajax-actions.php:5206
 msgid "Expected messages key in response array from %1$s eraser (index %2$d)."
 msgstr "%1$s 消去ツール (インデックス%2$d) からのレスポンス配列にメッセージキーが含まれていません。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5199
+#: wp-admin/includes/ajax-actions.php:5195
 msgid "Expected items_retained key in response array from %1$s eraser (index %2$d)."
 msgstr "%1$s 消去ツール (インデックス%2$d) からのレスポンス配列に items_retained キーが含まれていません。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5188
+#: wp-admin/includes/ajax-actions.php:5184
 msgid "Expected items_removed key in response array from %1$s eraser (index %2$d)."
 msgstr "%1$s 消去ツール (インデックス%2$d) からのレスポンス配列に items_removed キーが含まれていません。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5177
+#: wp-admin/includes/ajax-actions.php:5173
 msgid "Did not receive array from %1$s eraser (index %2$d)."
 msgstr "%1$s 消去ツール (インデックス %2$d) から配列を受け取りませんでした。"
 
 #. translators: %d: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5141
+#: wp-admin/includes/ajax-actions.php:5137
 msgid "Eraser array at index %d does not include a friendly name."
 msgstr "インデックス %d の消去ツール配列にフレンドリーネームが含まれていません。"
 
 #. translators: %d: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5136
+#: wp-admin/includes/ajax-actions.php:5132
 msgid "Expected an array describing the eraser at index %d."
 msgstr "インデックス %s に消去ツールを説明する配列が含まれていません。"
 
-#: wp-admin/includes/ajax-actions.php:4939
-#: wp-admin/includes/ajax-actions.php:5127
+#: wp-admin/includes/ajax-actions.php:4935
+#: wp-admin/includes/ajax-actions.php:5123
 msgid "Page index cannot be less than one."
 msgstr "ページインデックスは1以上でなければなりません。"
 
-#: wp-admin/includes/ajax-actions.php:5119
+#: wp-admin/includes/ajax-actions.php:5115
 msgid "Eraser index cannot be less than one."
 msgstr "消去ツールインデックスは1以上でなければなりません。"
 
-#: wp-admin/includes/ajax-actions.php:5078
+#: wp-admin/includes/ajax-actions.php:5074
 msgid "Invalid email address in request."
 msgstr "リクエストのメールアドレスが無効です。"
 
@@ -6297,7 +6297,7 @@ msgstr "コントロールを非表示"
 msgid "Expand Sidebar"
 msgstr "サイドバーを展開"
 
-#: wp-admin/nav-menus.php:1116
+#: wp-admin/nav-menus.php:1113
 msgid "Display location"
 msgstr "メニューの位置"
 
@@ -6503,7 +6503,7 @@ msgstr "このサイトネットワークにユーザーを追加する権限が
 msgid "Sorry, you are not allowed to edit this changeset."
 msgstr "このチェンジセットを編集する権限がありません。"
 
-#: wp-admin/includes/ajax-actions.php:4286 wp-admin/update.php:207
+#: wp-admin/includes/ajax-actions.php:4282 wp-admin/update.php:207
 #: wp-admin/update.php:230
 msgid "Sorry, you are not allowed to update themes for this site."
 msgstr "このサイトのテーマを更新する権限がありません。"
@@ -6553,7 +6553,7 @@ msgstr "このサイトの未登録設定を変更する権限がありません
 msgid "Sorry, you are not allowed to manage options for this site."
 msgstr "このサイトのオプションを管理する権限がありません。"
 
-#: wp-admin/nav-menus.php:712 wp-admin/widgets-form.php:393
+#: wp-admin/nav-menus.php:709 wp-admin/widgets-form.php:393
 msgid "Manage with Live Preview"
 msgstr "ライブプレビューで管理"
 
@@ -6724,37 +6724,37 @@ msgstr "このサイトのリンクを編集する権限がありません。"
 msgid "Sorry, you are not allowed to manage privacy options on this site."
 msgstr "このサイトでプライバシー設定を管理する権限がありません。"
 
-#: wp-admin/includes/ajax-actions.php:4711
+#: wp-admin/includes/ajax-actions.php:4707
 msgid "Plugin could not be deleted."
 msgstr "プラグインを削除できませんでした。"
 
-#: wp-admin/includes/ajax-actions.php:4565 wp-admin/update.php:29
+#: wp-admin/includes/ajax-actions.php:4561 wp-admin/update.php:29
 #: wp-admin/update.php:57 wp-admin/update.php:80
 msgid "Sorry, you are not allowed to update plugins for this site."
 msgstr "このサイトのプラグインを更新する権限がありません。"
 
-#: wp-admin/includes/ajax-actions.php:4441
-#: wp-admin/includes/ajax-actions.php:4550
-#: wp-admin/includes/ajax-actions.php:4658
+#: wp-admin/includes/ajax-actions.php:4437
+#: wp-admin/includes/ajax-actions.php:4546
+#: wp-admin/includes/ajax-actions.php:4654
 msgid "No plugin specified."
 msgstr "プラグインが指定されていません。"
 
-#: wp-admin/includes/ajax-actions.php:4417
+#: wp-admin/includes/ajax-actions.php:4413
 msgid "Theme could not be deleted."
 msgstr "テーマを削除できませんでした。"
 
-#: wp-admin/includes/ajax-actions.php:4379
+#: wp-admin/includes/ajax-actions.php:4375
 msgid "Sorry, you are not allowed to delete themes on this site."
 msgstr "このサイトのテーマを削除する権限がありません。"
 
-#: wp-admin/includes/ajax-actions.php:4159 wp-admin/theme-install.php:16
+#: wp-admin/includes/ajax-actions.php:4155 wp-admin/theme-install.php:16
 #: wp-admin/update.php:258 wp-admin/update.php:300 wp-admin/update.php:334
 msgid "Sorry, you are not allowed to install themes on this site."
 msgstr "このサイトにテーマをインストールする権限がありません。"
 
-#: wp-admin/includes/ajax-actions.php:4146
-#: wp-admin/includes/ajax-actions.php:4272
-#: wp-admin/includes/ajax-actions.php:4367
+#: wp-admin/includes/ajax-actions.php:4142
+#: wp-admin/includes/ajax-actions.php:4268
+#: wp-admin/includes/ajax-actions.php:4363
 msgid "No theme specified."
 msgstr "テーマが指定されていません。"
 
@@ -7221,13 +7221,13 @@ msgid "Send User Notification"
 msgstr "ユーザーに通知を送信"
 
 #. translators: %s: Menu name.
-#: wp-admin/nav-menus.php:1136
+#: wp-admin/nav-menus.php:1133
 msgctxt "menu location"
 msgid "(Currently set to: %s)"
 msgstr "(現在の設定: %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:365
+#: wp-admin/about.php:308
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>バージョン %s</strong> ではセキュリティ問題1件に対応しました。"
 
@@ -7239,15 +7239,15 @@ msgstr "https://ja.gravatar.com/"
 msgid "Profile Picture"
 msgstr "プロフィール写真"
 
-#: wp-admin/about.php:47 wp-admin/about.php:362
+#: wp-admin/about.php:305
 msgid "Maintenance and Security Releases"
 msgstr "メンテナンスとセキュリティのリリース"
 
-#: wp-admin/about.php:359
+#: wp-admin/about.php:302
 msgid "Security Releases"
 msgstr "セキュリティリリース"
 
-#: wp-admin/about.php:356
+#: wp-admin/about.php:299
 msgid "Maintenance Releases"
 msgstr "メンテナンスリリース"
 
@@ -7784,7 +7784,7 @@ msgstr "コメント (%s)"
 msgid "Comments (%1$s) on &#8220;%2$s&#8221;"
 msgstr "&#8220;%2$s&#8221; へのコメント(%1$s)"
 
-#: wp-admin/includes/ajax-actions.php:5501
+#: wp-admin/includes/ajax-actions.php:5497
 msgid "Sorry, you are not allowed to modify themes."
 msgstr "テーマを編集する権限がありません。"
 
@@ -7858,7 +7858,7 @@ msgid "%s approved comment"
 msgid_plural "%s approved comments"
 msgstr[0] "%s件の承認済みコメント"
 
-#: wp-admin/includes/ajax-actions.php:3970
+#: wp-admin/includes/ajax-actions.php:3966
 msgid "Image could not be processed."
 msgstr "画像を処理できませんでした。"
 
@@ -7882,7 +7882,7 @@ msgid "Show more details"
 msgstr "詳細を追加表示"
 
 #. translators: %s: Number of menus.
-#: wp-admin/nav-menus.php:756
+#: wp-admin/nav-menus.php:753
 msgid "Your theme supports %s menu. Select which menu appears in each location."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "お使いのテーマは%s個のメニューに対応しています。各位置に表示するメニューを選んでください。"
@@ -8088,7 +8088,7 @@ msgctxt "timezone date format"
 msgid "Y-m-d H:i:s"
 msgstr "Y-m-d H:i:s"
 
-#: wp-admin/nav-menus.php:661
+#: wp-admin/nav-menus.php:658
 msgid "To add a custom link, <strong>expand the Custom Links section, enter a URL and link text, and click Add to Menu</strong>"
 msgstr "カスタムリンクを追加するには、<strong>カスタムリンクのセクションを開いて、 URL とリンク文字列を入力し、メニューに追加をクリックしてください</strong>"
 
@@ -8308,19 +8308,19 @@ msgid "Filter by comment type"
 msgstr "コメントの種類で絞り込む"
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/ajax-actions.php:3945
+#: wp-admin/includes/ajax-actions.php:3941
 msgid "%s has been logged out."
 msgstr "%s をログアウトしました。"
 
-#: wp-admin/includes/ajax-actions.php:3941
+#: wp-admin/includes/ajax-actions.php:3937
 msgid "You are now logged out everywhere else."
 msgstr "他のすべてでログアウトしました。"
 
-#: wp-admin/includes/ajax-actions.php:3932
+#: wp-admin/includes/ajax-actions.php:3928
 msgid "Could not log out user sessions. Please try again."
 msgstr "﻿ユーザーセッションからログアウトできませんでした。もう一度お試しください。"
 
-#: wp-admin/includes/ajax-actions.php:3819
+#: wp-admin/includes/ajax-actions.php:3815
 msgid "This preview is unavailable in the editor."
 msgstr "﻿このプレビューはエディターでは表示できません。"
 
@@ -8506,7 +8506,7 @@ msgid "Beta Testing"
 msgstr "ベータテスト"
 
 #. translators: %s: URL that could not be embedded.
-#: wp-admin/includes/ajax-actions.php:3785
+#: wp-admin/includes/ajax-actions.php:3781
 msgid "%s failed to embed."
 msgstr "%s の埋め込みに失敗しました。"
 
@@ -9109,18 +9109,18 @@ msgstr "メディアライブラリに画像を追加する際、以下でピク
 msgid "Comment must be manually approved"
 msgstr "コメントの手動承認を必須にする"
 
-#: wp-admin/nav-menus.php:659
+#: wp-admin/nav-menus.php:656
 msgid "<strong>Clicking the arrow to the right of any menu item</strong> in the editor will reveal a standard group of settings. Additional settings such as link target, CSS classes, link relationships, and link descriptions can be enabled and disabled via the Screen Options tab."
 msgstr "エディター内で<strong>メニュー項目の右側にある矢印</strong>をクリックすると標準の設定グループが表示されます。リンクのターゲット・CSS クラス・rel・説明といった追加設定は「表示オプション」で有効化または無効化できます。"
 
 #. translators: 1: URL to Widgets screen, 2 and 3: The names of the default
 #. themes.
-#: wp-admin/nav-menus.php:628
+#: wp-admin/nav-menus.php:625
 msgid "Menus can be displayed in locations defined by your theme, even used in sidebars by adding a &#8220;Navigation Menu&#8221; widget on the <a href=\"%1$s\">Widgets</a> screen. If your theme does not support the navigation menus feature (the default themes, %2$s and %3$s, do), you can learn about adding this support by following the documentation link to the side."
 msgstr "メニューはテーマ内で定義された位置に表示できます。<a href=\"%1$s\">ウィジェット</a>画面で「ナビゲーションメニュー」ウィジェットを追加すればサイドバーに表示することもできます。もしお使いのテーマがナビゲーションメニュー機能に対応していない場合、サイドにあるドキュメンテーションリンクから追加方法をご覧ください (デフォルトテーマ %2$s と %3$s は対応済みです) 。"
 
 #. translators: %s: URL to Widgets screen.
-#: wp-admin/nav-menus.php:619
+#: wp-admin/nav-menus.php:616
 msgid "Your theme does not natively support menus, but you can use them in sidebars by adding a &#8220;Navigation Menu&#8221; widget on the <a href=\"%s\">Widgets</a> screen."
 msgstr "お使いのテーマはメニュー機能に対応していませんが、<a href=\"%s\">ウィジェット</a>画面でサイドバーに「ナビゲーションメニュー」ウィジェットを追加できます。"
 
@@ -9402,11 +9402,11 @@ msgstr "ゴミ箱から復元しようとしている項目が存在しません
 msgid "The item you are trying to move to the Trash no longer exists."
 msgstr "ゴミ箱に移動しようとしている項目が存在しません。"
 
-#: wp-admin/nav-menus.php:1034
+#: wp-admin/nav-menus.php:1031
 msgid "Drag the items into the order you prefer. Click the arrow on the right of the item to reveal additional configuration options."
 msgstr "好みの順番に各項目をドラッグしてください。項目の右側の矢印をクリックすると、追加設定オプションを表示できます。"
 
-#: wp-admin/nav-menus.php:647
+#: wp-admin/nav-menus.php:644
 msgid "If you have not yet created any menus, <strong>click the &#8217;create a new menu&#8217; link</strong> to get started"
 msgstr "まだメニューを作成していないなら、<strong>「新規メニューを作成」リンクをクリック</strong>してスタートしましょう"
 
@@ -9446,105 +9446,105 @@ msgctxt "Followed by post revision info"
 msgid "From:"
 msgstr "旧リビジョン:"
 
-#: wp-admin/nav-menus.php:835
+#: wp-admin/nav-menus.php:832
 msgctxt "menu"
 msgid "Use new menu"
 msgstr "新規メニューを使用"
 
-#: wp-admin/nav-menus.php:811
+#: wp-admin/nav-menus.php:808
 msgctxt "menu"
 msgid "Edit"
 msgstr "編集"
 
-#: wp-admin/nav-menus.php:780
+#: wp-admin/nav-menus.php:777
 msgid "Select a Menu"
 msgstr "メニューを選択"
 
-#: wp-admin/nav-menus.php:771
+#: wp-admin/nav-menus.php:768
 msgid "Assigned Menu"
 msgstr "指定されたメニュー"
 
-#: wp-admin/nav-menus.php:770
+#: wp-admin/nav-menus.php:767
 msgid "Theme Location"
 msgstr "テーマの位置"
 
-#: wp-admin/nav-menus.php:739
+#: wp-admin/nav-menus.php:736
 msgid "Manage Locations"
 msgstr "位置を管理"
 
-#: wp-admin/nav-menus.php:728
+#: wp-admin/nav-menus.php:725
 msgid "Edit Menus"
 msgstr "メニューを編集"
 
-#: wp-admin/nav-menus.php:676
+#: wp-admin/nav-menus.php:673
 msgid "To add a new menu instead of assigning an existing one, <strong>click the &#8217;Use new menu&#8217; link</strong>. Your new menu will be automatically assigned to that theme location"
 msgstr "既存のメニューを指定するのではなく新規作成する場合は、<strong>「新規メニューを追加」リンクをクリック</strong>してください。自動的に新しいメニューがテーマの位置に指定されます。"
 
-#: wp-admin/nav-menus.php:675
+#: wp-admin/nav-menus.php:672
 msgid "To edit a menu currently assigned to a theme location, <strong>click the adjacent &#8217;Edit&#8217; link</strong>"
 msgstr "すでにテーマの位置に指定されているメニューを編集するには、<strong>「編集」リンクをクリック</strong>してください。"
 
-#: wp-admin/nav-menus.php:674
+#: wp-admin/nav-menus.php:671
 msgid "To assign menus to one or more theme locations, <strong>select a menu from each location&#8217;s dropdown</strong>. When you are finished, <strong>click Save Changes</strong>"
 msgstr "メニューをテーマ位置に指定するには、<strong>各位置のドロップダウンからメニューを選択</strong>してください。作業が終わったら、<strong>「変更を保存」</strong>をクリックします"
 
-#: wp-admin/nav-menus.php:673
+#: wp-admin/nav-menus.php:670
 msgid "This screen is used for globally assigning menus to locations defined by your theme."
 msgstr "この画面はテーマ内で定義された位置すべてにメニューを指定するために使われます。"
 
-#: wp-admin/nav-menus.php:668
+#: wp-admin/nav-menus.php:665
 msgid "Editing Menus"
 msgstr "メニューの編集"
 
-#: wp-admin/nav-menus.php:663
+#: wp-admin/nav-menus.php:660
 msgid "Delete a menu item by <strong>expanding it and clicking the Remove link</strong>"
 msgstr "メニュー項目を削除するには<strong>展開して「削除」リンクをクリック</strong>してください"
 
-#: wp-admin/nav-menus.php:662
+#: wp-admin/nav-menus.php:659
 msgid "To reorganize menu items, <strong>drag and drop items with your mouse or use your keyboard</strong>. Drag or move a menu item a little to the right to make it a submenu"
 msgstr "メニュー項目を整理するには、<strong>マウスまたはキーボードで項目をドラッグ & ドロップ</strong>してください。項目をサブメニューにするには、ドラッグするか少し右に移動してください。"
 
-#: wp-admin/nav-menus.php:660
+#: wp-admin/nav-menus.php:657
 msgid "Add one or several items at once by <strong>selecting the checkbox next to each item and clicking Add to Menu</strong>"
 msgstr "<strong>各項目の横にあるチェックボックスを選択し、「メニューに追加」をクリック</strong>して項目を追加してください"
 
-#: wp-admin/nav-menus.php:658
+#: wp-admin/nav-menus.php:655
 msgid "Each navigation menu may contain a mix of links to pages, categories, custom URLs or other content types. Menu links are added by selecting items from the expanding boxes in the left-hand column below."
 msgstr "各ナビゲーションメニューには固定ページ・カテゴリー・カスタム URL やその他の種類のコンテンツへのリンクなどが含まれている場合があります。メニューリンクを追加するには、この下にある左カラム内のボックスを展開し、項目を選択してください。"
 
-#: wp-admin/nav-menus.php:653
+#: wp-admin/nav-menus.php:650
 msgid "Menu Management"
 msgstr "メニュー管理"
 
-#: wp-admin/nav-menus.php:648
+#: wp-admin/nav-menus.php:645
 msgid "You can assign theme locations to individual menus by <strong>selecting the desired settings</strong> at the bottom of the menu editor. To assign menus to all theme locations at once, <strong>visit the Manage Locations tab</strong> at the top of the screen."
 msgstr "各メニューのテーマでの位置を指定するには、メニューエディターの下部で<strong>設定を選択</strong>してください。複数のメニューをすべてのテーマ位置に一度に指定するには、画面上部の<strong>「位置の管理」タブ</strong>をご利用ください。"
 
-#: wp-admin/nav-menus.php:646
+#: wp-admin/nav-menus.php:643
 msgid "To edit an existing menu, <strong>choose a menu from the dropdown and click Select</strong>"
 msgstr "既存メニューを編集するには、<strong>ドロップダウンリストでメニューを選択し、「選択」をクリックしてください</strong>"
 
-#: wp-admin/nav-menus.php:645
+#: wp-admin/nav-menus.php:642
 msgid "The menu management box at the top of the screen is used to control which menu is opened in the editor below."
 msgstr "この画面の上部にあるメニュー管理ボックスで、下のエディターでどのメニューを開くか選びます。"
 
-#: wp-admin/nav-menus.php:635
+#: wp-admin/nav-menus.php:632
 msgid "Add, organize, and modify individual menu items"
 msgstr "個々のメニュー項目の追加、組み立て、変更"
 
-#: wp-admin/nav-menus.php:634
+#: wp-admin/nav-menus.php:631
 msgid "Create, edit, and delete menus"
 msgstr "メニューの作成、編集、削除"
 
-#: wp-admin/nav-menus.php:633 wp-admin/themes.php:133
+#: wp-admin/nav-menus.php:630 wp-admin/themes.php:133
 msgid "From this screen you can:"
 msgstr "この画面では次のことができます。"
 
-#: wp-admin/nav-menus.php:625
+#: wp-admin/nav-menus.php:622
 msgid "This screen is used for managing your navigation menus."
 msgstr "この画面でナビゲーションメニューを管理できます。"
 
-#: wp-admin/nav-menus.php:471
+#: wp-admin/nav-menus.php:468
 msgid "Menu locations updated."
 msgstr "メニューの位置を更新しました。"
 
@@ -9594,11 +9594,11 @@ msgstr "拒否されました: %s"
 msgid "Capabilities"
 msgstr "権限"
 
-#: wp-admin/nav-menus.php:1091 wp-admin/network/settings.php:501
+#: wp-admin/nav-menus.php:1088 wp-admin/network/settings.php:501
 msgid "Menu Settings"
 msgstr "メニュー設定"
 
-#: wp-admin/nav-menus.php:991
+#: wp-admin/nav-menus.php:988
 msgid "Menu structure"
 msgstr "メニュー構造"
 
@@ -9633,7 +9633,7 @@ msgstr "この項目をゴミ箱へ移動することはできません。%s は
 msgid "%s has taken over and is currently editing."
 msgstr "%s さんが引き継いで現在編集しています。"
 
-#: wp-admin/nav-menus.php:896
+#: wp-admin/nav-menus.php:893
 msgid "Select a menu to edit:"
 msgstr "編集するメニューを選択:"
 
@@ -9650,19 +9650,19 @@ msgstr "この部分のインストールは無事完了しました。WordPress
 msgid "Client version"
 msgstr "現在のバージョン"
 
-#: wp-admin/nav-menus.php:1107
+#: wp-admin/nav-menus.php:1104
 msgid "Auto add pages"
 msgstr "固定ページを自動追加"
 
-#: wp-admin/nav-menus.php:1061
+#: wp-admin/nav-menus.php:1058
 msgid "Give your menu a name, then click Create Menu."
 msgstr "メニューに名前をつけ、「メニューを作成」ボタンをクリックしてください。"
 
-#: wp-admin/nav-menus.php:1032
+#: wp-admin/nav-menus.php:1029
 msgid "Edit your default menu by adding or removing items. Drag the items into the order you prefer. Click Create Menu to save your changes."
 msgstr "項目を追加・削除してデフォルトのメニューを編集できます。お好きな順番に項目をドラッグし、「メニューを作成」ボタンをクリックして保存してください。"
 
-#: wp-admin/nav-menus.php:329
+#: wp-admin/nav-menus.php:326
 msgid "Selected menus have been successfully deleted."
 msgstr "選択されたメニューの削除に成功しました。"
 
@@ -10561,48 +10561,45 @@ msgstr "サイトネットワーク上の既存のユーザーをこのサイト
 msgid "Show Toolbar when viewing site"
 msgstr "サイトを見るときにツールバーを表示する"
 
-#. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:64 wp-admin/about.php:90 wp-admin/about.php:388
+#: wp-admin/about.php:331
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "詳しくは<a href=\"%s\">リリースノート</a>をご覧ください。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:78 wp-admin/about.php:382
+#: wp-admin/about.php:325
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>バージョン %1$s</strong> はいくつかのセキュリティ問題に対応し、%2$s個のバグを修正しました。"
 
-#. translators: 1: WordPress version number, 2: Plural number of bugs. More
-#. than one security issue.
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:52 wp-admin/about.php:376
+#: wp-admin/about.php:319
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>バージョン %1$s</strong> はセキュリティ問題に対応し、%2$s個のバグを修正しました。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:370
+#: wp-admin/about.php:313
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>バージョン %1$s</strong> では%2$s個のバグを修正しました。"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:367
+#: wp-admin/about.php:310
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>バージョン %s</strong> では複数のセキュリティ問題に対応しました。"
 
-#: wp-admin/about.php:361
+#: wp-admin/about.php:304
 msgid "Maintenance and Security Release"
 msgstr "メンテナンスとセキュリティのリリース"
 
-#: wp-admin/about.php:358
+#: wp-admin/about.php:301
 msgid "Security Release"
 msgstr "セキュリティリリース"
 
-#: wp-admin/about.php:355
+#: wp-admin/about.php:298
 msgid "Maintenance Release"
 msgstr "メンテナンスリリース"
 
@@ -10880,15 +10877,15 @@ msgid "Because this is a multisite installation, you may add accounts that alrea
 msgstr "このサイトはマルチサイトインストールのため、サイトネットワーク上にすでに存在するアカウントのユーザー名またはメールアドレスを指定し、権限グループを選択して追加することができます。パスワードを設定するといった追加オプションを使うには、「ネットワーク管理 > ユーザー一覧」ページで、サイトネットワーク管理者として既存のユーザーの名前をマウスオーバーしたときに表示される「編集」リンクを使う必要があります。"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:108
+#: wp-admin/about.php:51
 msgid "Welcome to WordPress %s"
 msgstr "WordPress %s へようこそ"
 
-#: wp-admin/about.php:344
+#: wp-admin/about.php:287
 msgid "Go to Dashboard &rarr; Home"
 msgstr "ダッシュボード &rarr; ホームへ移動"
 
-#: wp-admin/about.php:341
+#: wp-admin/about.php:284
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "ダッシュボード &rarr; 更新へ移動"
 
@@ -11026,8 +11023,8 @@ msgstr "左側のナビゲーションメニューは WordPress のすべての�
 #: wp-admin/includes/class-custom-image-header.php:100
 #: wp-admin/includes/class-wp-screen.php:856 wp-admin/includes/ms.php:1134
 #: wp-admin/index.php:44 wp-admin/link-manager.php:57 wp-admin/media-new.php:49
-#: wp-admin/media.php:86 wp-admin/my-sites.php:44 wp-admin/nav-menus.php:640
-#: wp-admin/nav-menus.php:681 wp-admin/options-discussion.php:24
+#: wp-admin/media.php:86 wp-admin/my-sites.php:44 wp-admin/nav-menus.php:637
+#: wp-admin/nav-menus.php:678 wp-admin/options-discussion.php:24
 #: wp-admin/options-general.php:53 wp-admin/options-media.php:34
 #: wp-admin/options-permalink.php:23 wp-admin/options-privacy.php:38
 #: wp-admin/options-reading.php:25 wp-admin/options-writing.php:23
@@ -11133,8 +11130,8 @@ msgstr "特権管理者"
 #. translators: %s: Theme version number.
 #. translators: %s: WordPress version.
 #. translators: %s: Theme version.
-#: wp-admin/includes/ajax-actions.php:4575
-#: wp-admin/includes/ajax-actions.php:4618
+#: wp-admin/includes/ajax-actions.php:4571
+#: wp-admin/includes/ajax-actions.php:4614
 #: wp-admin/includes/class-wp-debug-data.php:951
 #: wp-admin/includes/class-wp-debug-data.php:998
 #: wp-admin/includes/class-wp-debug-data.php:1320
@@ -11185,7 +11182,7 @@ msgstr "設定を保存しました。"
 #: wp-admin/includes/class-custom-image-header.php:136
 #: wp-admin/includes/ms.php:1156 wp-admin/index.php:131
 #: wp-admin/link-manager.php:78 wp-admin/media-new.php:60 wp-admin/media.php:96
-#: wp-admin/my-sites.php:51 wp-admin/nav-menus.php:688
+#: wp-admin/my-sites.php:51 wp-admin/nav-menus.php:685
 #: wp-admin/options-discussion.php:31 wp-admin/options-general.php:59
 #: wp-admin/options-media.php:40 wp-admin/options-permalink.php:59
 #: wp-admin/options-privacy.php:46 wp-admin/options-reading.php:52
@@ -11444,7 +11441,7 @@ msgstr "%1$s / %2$s"
 msgid "%s Page Template"
 msgstr "%s 固定ページテンプレート"
 
-#: wp-admin/includes/ajax-actions.php:4680 wp-admin/plugins.php:624
+#: wp-admin/includes/ajax-actions.php:4676 wp-admin/plugins.php:624
 msgid "You cannot delete a plugin while it is active on the main site."
 msgstr "メインのサイトで有効になっているためプラグインを削除できません。"
 
@@ -11586,7 +11583,7 @@ msgstr "プラグインを更新"
 msgid "Theme updated successfully."
 msgstr "テーマの更新に成功しました。"
 
-#: wp-admin/includes/ajax-actions.php:4346
+#: wp-admin/includes/ajax-actions.php:4342
 #: wp-admin/includes/class-theme-upgrader.php:63
 #: wp-admin/includes/class-theme-upgrader.php:100
 msgid "Theme update failed."
@@ -11597,7 +11594,7 @@ msgstr "テーマの更新に失敗しました。"
 msgid "Plugin updated successfully."
 msgstr "プラグインの更新に成功しました。"
 
-#: wp-admin/includes/ajax-actions.php:4637
+#: wp-admin/includes/ajax-actions.php:4633
 #: wp-admin/includes/class-plugin-upgrader.php:64
 #: wp-admin/includes/class-plugin-upgrader.php:91
 msgid "Plugin update failed."
@@ -12211,7 +12208,7 @@ msgstr "この画面の表示をさまざまな方法でカスタマイズでき
 msgid "Search Installed Plugins"
 msgstr "インストールされているプラグインを検索"
 
-#: wp-admin/nav-menus.php:752
+#: wp-admin/nav-menus.php:749
 msgid "Your theme supports one menu. Select which menu you would like to use."
 msgstr "お使いのテーマは1個のメニューに対応しています。使用したいメニューを選択してください。"
 
@@ -12354,7 +12351,7 @@ msgstr "サブドメインの設定を行うには、DNS にワイルドカー�
 msgid "The installer attempted to contact a random hostname (%s) on your domain."
 msgstr "インストーラーはこのドメイン上のランダムなホスト名 (%s) への接続を試みました。"
 
-#: wp-admin/nav-menus.php:284
+#: wp-admin/nav-menus.php:281
 msgid "The menu item has been successfully deleted."
 msgstr "メニュー項目の削除に成功しました。"
 
@@ -12527,7 +12524,7 @@ msgstr "ユーザー名は変更できません。"
 msgid "items"
 msgstr "項目"
 
-#: wp-admin/nav-menus.php:307
+#: wp-admin/nav-menus.php:304
 msgid "The menu has been successfully deleted."
 msgstr "メニューの削除に成功しました。"
 
@@ -12550,7 +12547,7 @@ msgstr "CSS class (オプション)"
 msgid "Link Target"
 msgstr "リンクターゲット"
 
-#: wp-admin/nav-menus.php:1017 wp-admin/nav-menus.php:1182
+#: wp-admin/nav-menus.php:1014 wp-admin/nav-menus.php:1179
 msgid "Save Menu"
 msgstr "メニューを保存"
 
@@ -12642,7 +12639,7 @@ msgstr "WordPress の更新"
 msgid "Edit menu item"
 msgstr "メニュー項目を編集"
 
-#: wp-admin/about.php:344 wp-admin/includes/network.php:148
+#: wp-admin/about.php:287 wp-admin/includes/network.php:148
 msgid "Go to Dashboard"
 msgstr "ダッシュボードへ移動"
 
@@ -12694,7 +12691,7 @@ msgstr "このアドレスは管理のために使用されます。変更する
 msgid "View All"
 msgstr "すべて表示"
 
-#: wp-admin/nav-menus.php:403 wp-admin/nav-menus.php:425
+#: wp-admin/nav-menus.php:400 wp-admin/nav-menus.php:422
 msgid "Please enter a valid menu name."
 msgstr "メニュー名を入力してください。"
 
@@ -13207,7 +13204,7 @@ msgstr "プラグインファイル"
 msgid "Select plugin to edit:"
 msgstr "編集するプラグインを選択:"
 
-#: wp-admin/includes/ajax-actions.php:4848 wp-admin/plugin-editor.php:187
+#: wp-admin/includes/ajax-actions.php:4844 wp-admin/plugin-editor.php:187
 #: wp-admin/theme-editor.php:194
 msgid "File edited successfully."
 msgstr "ファイルの編集に成功しました。"
@@ -14044,11 +14041,6 @@ msgstr "この投稿を先頭に固定表示"
 #: wp-admin/includes/class-wp-posts-list-table.php:1963
 msgid "Not Sticky"
 msgstr "通常どおり表示"
-
-#: wp-admin/includes/class-wp-posts-list-table.php:1959
-#: wp-admin/includes/class-wp-posts-list-table.php:1962
-msgid "Sticky"
-msgstr "先頭に固定表示"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:1921
 msgid "Allow Pings"
@@ -15427,7 +15419,7 @@ msgstr "コメントを更新"
 
 #. translators: 1: Post edited date, 2: Post edited time.
 #. translators: 1: Date of last edit, 2: Time of last edit.
-#: wp-admin/edit-form-advanced.php:630 wp-admin/includes/ajax-actions.php:2868
+#: wp-admin/edit-form-advanced.php:630 wp-admin/includes/ajax-actions.php:2864
 msgid "Last edited on %1$s at %2$s"
 msgstr "最後の編集: %1$s %2$s"
 
@@ -15435,7 +15427,7 @@ msgstr "最後の編集: %1$s %2$s"
 #. Post edited time.
 #. translators: 1: User's display name, 2: Date of last edit, 3: Time of last
 #. edit.
-#: wp-admin/edit-form-advanced.php:627 wp-admin/includes/ajax-actions.php:2865
+#: wp-admin/edit-form-advanced.php:627 wp-admin/includes/ajax-actions.php:2861
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "最後の編集: %2$s %3$s - %1$s"
 
@@ -15617,7 +15609,7 @@ msgid "Custom Header"
 msgstr "カスタムヘッダー"
 
 #: wp-admin/includes/dashboard.php:251 wp-admin/includes/template.php:2592
-#: wp-admin/nav-menus.php:844 wp-admin/options.php:413
+#: wp-admin/nav-menus.php:841 wp-admin/options.php:413
 msgid "Save Changes"
 msgstr "変更を保存"
 
