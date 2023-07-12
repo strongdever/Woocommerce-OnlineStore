@@ -1,0 +1,757 @@
+.fkwcs_express_checkout_preview_wrapper {
+    max-width: 380px;
+    width: 100%;
+    display: none;
+}
+
+label[for="fkwcs_express_checkout_preview"] {
+    visibility: hidden;
+}
+
+.fkwcs_floating_preview {
+    width: 400px;
+}
+
+.fkwcs_express_checkout_preview {
+    max-width: 100%;
+}
+
+.fkwcs_preview_title {
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+}
+
+.fkwcs_preview_tagline {
+    margin-bottom: 1em;
+}
+
+.fkwcs_preview_notice {
+    font-style: italic;
+    font-size: 12px;
+    clear: both;
+    margin-top: 1em;
+    display: none;
+}
+
+.fkwcs_button_preview_label {
+    font-weight: 600;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+#fkwcs-payment-request-wrapper.checkout.fkwcs-classic .fkwcs-payment-request-button-wrapper, .fkwcs_express_checkout_preview_wrapper.fkwcs-classic {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 1em 2em 2em;
+    justify-content: center;
+    margin-bottom: 1em !important;
+}
+
+.fkwcs_floating_preview .fkwcs_express_checkout_preview_wrapper.fkwcs-classic {
+    border: 1px solid #c3c4c7;
+    text-align: center !important;
+}
+
+.fkwcs_floating_preview .fkwcs_express_checkout_preview_wrapper.fkwcs-classic #fkwcs-payment-request-custom-button {
+    text-align: center !important;
+    overflow: hidden;
+    max-width: 380px;
+}
+
+.fkwcs_floating_preview .fkwcs_express_checkout_preview_wrapper.fkwcs-classic .fkwcs-payment-request-custom-button-admin, .fkwcs_floating_preview .fkwcs_express_checkout_preview_wrapper.fkwcs-classic .fkwcs-payment-request-custom-button-render {
+    max-width: 380px !important;
+}
+
+#fkwcs-payment-request-wrapper.checkout.fkwcs-classic #fkwcs-payment-request-title, .fkwcs_express_checkout_preview_wrapper.fkwcs-classic .fkwcs_preview_title {
+    font-size: 14px;
+    margin: 0;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%) translateZ(0);
+    background: #fff;
+    padding: 0 0.75em;
+    font-weight: 400;
+    white-space: nowrap;
+    border: none;
+}
+
+.fkwcs_floating_preview .fkwcs_express_checkout_preview_wrapper.fkwcs-classic .fkwcs_preview_title {
+    background: #f0f0f1;
+}
+
+#fkwcs-payment-request-wrapper.checkout.fkwcs-classic #fkwcs-payment-request-separator::before, #fkwcs-payment-request-wrapper.checkout.fkwcs-classic #fkwcs-payment-request-separator::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    height: 1px;
+    background: #e6e6e6;
+    width: 48%;
+}
+
+#fkwcs-payment-request-wrapper.checkout.fkwcs-classic #fkwcs-payment-request-custom-button {
+    width: 100%;
+}
+
+#fkwcs-payment-request-wrapper.checkout.fkwcs-classic #fkwcs-payment-request-separator::after {
+    right: 0;
+    left: auto;
+}
+
+#fkwcs-payment-request-wrapper.checkout.fkwcs-classic #fkwcs-payment-request-separator {
+    text-transform: none;
+    white-space: nowrap;
+    padding: 0.5em 1em;
+    position: relative;
+}
+
+/* Custom express checkout button style */
+.fkwcs-payment-request-custom-button-render {
+    overflow: hidden !important;
+    margin-top: 0.7em;
+}
+
+#fkwcs-payment-request-custom-button {
+    max-width: 100%;
+}
+
+#fkwcs-payment-request-custom-button > * {
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: auto;
+    z-index: 1;
+}
+
+.fkwcs-payment-request-custom-button-render::after, .fkwcs-payment-request-custom-button-render::before {
+    display: none;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-applepay-button--dark {
+    background-color: #000 !important;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-applepay-button--light {
+    background-color: #fff !important;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button {
+    position: relative;
+    min-height: 32px;
+    max-height: 64px;
+    border: 0;
+    cursor: pointer;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 27.5vh 7.375vw;
+    background-origin: content-box;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--dark {
+    background-color: #000 !important;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--dark:focus, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--dark:hover {
+    background-color: #3c4043;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--dark:active {
+    background-color: #5f6368;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--light, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--light-outline {
+    background-color: #fff !important;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--light:focus, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--light:hover, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--light-outline:focus, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--light-outline:hover {
+    background-color: #f8f8f8;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--light:active, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--light-outline:active {
+    background-color: #fff;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button {
+    position: relative;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--dark, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--dark:hover {
+    background: #32325d !important;
+    color: #fff !important;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--light, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--light-outline, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--light:hover, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--light-outline:hover {
+    background: #fff !important;
+    color: #39325c !important;
+    border: solid 1px #ebebeb !important;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button-inner {
+    width: 100%;
+    outline: none;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button-content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button.compact .PaymentRequestfkwcs-express-checkout-buttonButton-content {
+    padding: 0 2px;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button-border {
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    will-change: opacity;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button-shines {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    will-change: opacity;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button-shine {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 250%;
+    transform: translateX(-100%);
+    will-change: transform, opacity;
+    transition: opacity 0.8s;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--dark .fkwcs-express-checkout-button-shine {
+    background: linear-gradient(110deg, rgba(121, 78, 151, 0) 10%, rgba(121, 78, 151, 0.91) 45%, rgba(121, 78, 151, 1) 50%, rgba(121, 78, 151, 0.91) 55%, rgba(121, 78, 151, 0) 90%);
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--light .fkwcs-express-checkout-button-shine, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--light-outline .fkwcs-express-checkout-button-shine {
+    background: linear-gradient(110deg, rgba(225, 218, 245, 0) 10%, rgba(225, 218, 245, 0.91) 45%, rgba(225, 218, 245, 1) 50%, rgba(225, 218, 245, 0.91) 55%, rgba(225, 218, 245, 0) 90%);
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button-shine--scroll {
+    opacity: 0.6;
+    animation: fkwcs_shine 5s infinite;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button-shine--hover, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-button:hover .fkwcs-express-checkout-button-shine--scroll {
+    opacity: 0;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button:hover .fkwcs-express-checkout-button-shine--hover {
+    transition-duration: 0.3s;
+    opacity: 0.8;
+    transform: translateX(-15%);
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 30;
+    opacity: 0;
+    transition: opacity 0.3s;
+    will-change: opacity;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--dark .fkwcs-express-checkout-button-overlay {
+    background: rgba(0, 0, 40, 0.3);
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--light .fkwcs-express-checkout-button-overlay, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--light-outline .fkwcs-express-checkout-button-overlay {
+    background: rgba(151, 136, 197, 0.2);
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button.is-active .fkwcs-express-checkout-button-overlay, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-button:active .fkwcs-express-checkout-button-overlay {
+    opacity: 1;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button-label {
+    position: relative;
+    z-index: 10;
+    transition-property: font-size, color, opacity;
+    transition-duration: 0.25s;
+    will-change: opacity;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--dark, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--dark, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-applepay-button--dark {
+    color: #fff !important;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--light, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--light, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-applepay-button--light, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-payment-button--light-outline, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-googlepay-button--light-outline, #fkwcs-payment-request-custom-button .fkwcs-express-checkout-applepay-button--light-outline {
+    color: #39325c !important;
+    border: solid 1px #ebebeb !important;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button.baseline-offset .fkwcs-express-checkout-button-label {
+    margin-top: -2px;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button.compact .fkwcs-express-checkout-button-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#fkwcs-payment-request-custom-button .fkwcs-express-checkout-button.large .fkwcs-express-checkout-button-label {
+    margin-top: -2px;
+}
+
+.fkwcs-express-checkout-button-icon {
+    flex-shrink: 0;
+    z-index: 10;
+    will-change: opacity;
+    margin: 0 -1px -1px 7px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+.fkwcs-payment-request-custom-button-admin .fkwcs-express-checkout-button-icon {
+    position: relative;
+    width: 40px;
+}
+
+#fkwcs-payment-request-wrapper .fkwcs-express-apple_pay .fkwcs-express-checkout-button-icon, #fkwcs-payment-request-wrapper .fkwcs-express-google_pay .fkwcs-express-checkout-button-icon {
+    margin: 0 -1px -3px 7px;
+}
+
+#fkwcs-payment-request-wrapper.cart .fkwcs-express-google_pay .fkwcs-express-checkout-button-icon {
+    margin: 0 -1px -5px 7px;
+}
+
+.fkwcs-payment-request-custom-button-admin .fkwcs-payment-request-custom-button-render, #fkwcs-payment-request-wrapper.cart, #fkwcs-payment-request-wrapper.cart .fkwcs-payment-request-custom-button-render, #fkwcs-payment-request-wrapper.checkout {
+    width: 100%;
+}
+
+#fkwcs-payment-request-wrapper.fkwcs-product.below, #fkwcs-payment-request-wrapper.fkwcs-product.above, #fkwcs-payment-request-wrapper.fkwcs-product.below .fkwcs-payment-request-button-wrapper, #fkwcs-payment-request-wrapper.fkwcs-product.above .fkwcs-payment-request-separator {
+    float: left;
+    overflow: visible;
+}
+
+#fkwcs-payment-request-wrapper.fkwcs-product.inline {
+    overflow: visible;
+}
+
+#fkwcs-payment-request-wrapper.checkout.center #fkwcs-payment-request-custom-button {
+    text-align: center;
+}
+
+#fkwcs-payment-request-wrapper.fkwcs-product.above::after, #fkwcs-payment-request-wrapper.fkwcs-product.above .fkwcs-payment-request-button-wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#fkwcs-payment-request-wrapper .fkwcs-payment-request-custom-button-render {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.fkwcs_test_visibility {
+    margin: 11px 0;
+}
+
+.fkwcs-btn-type-info-wrapper {
+    display: inline-block;
+    width: 380px;
+    margin: 5px 0;
+}
+
+.fkwcs-btn-type-info-wrapper:last-child {
+    margin-left: 1%;
+}
+
+.fkwcs_not_supported, .fkwcs_is_supported {
+    display: inline;
+}
+
+.fkwcs-express-button-active .fkwcs_not_supported {
+    display: none;
+}
+
+.fkwcs-express-button-active .fkwcs_is_supported {
+    display: inline;
+}
+
+.fkwcs-express-button-not-active .fkwcs_not_supported {
+    display: inline;
+}
+
+.fkwcs-express-button-not-active .fkwcs_is_supported {
+    display: none;
+}
+
+.fkwcs_show_spinner .spinner {
+    visibility: visible;
+    float: none;
+    text-align: center;
+    margin-left: 0;
+}
+
+.fkwcs-btn-type-info-wrapper {
+    display: none;
+}
+
+.fkwcs_show_spinner .fkwcs-btn-type-info-wrapper {
+    display: none;
+}
+
+.fkwcs_connect_btn {
+    background: #6772e5;
+    display: inline-block;
+    height: 38px;
+    text-decoration: none;
+    width: 240px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.form-wc-account_id .fkwcs_connect_btn {
+    margin: 10px;
+}
+
+.form-wc-wc_fkwcs_connect_btn .fkwcs_connect_btn:hover {
+    background: #3f4ddf;
+}
+
+.fkwcs_connect_btn span, .fkwcs_connect_btn span {
+    color: #fff;
+    display: block;
+    font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14px;
+    padding: 11px 0 0 65px;
+    position: relative;
+    text-align: left;
+}
+
+.fkwcs_connect_btn span::before, .fkwcs_connect_btn span::before {
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 16%;
+    position: absolute;
+    top: 30%;
+    width: 49.58px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 468 222.5' style='enable-background:new 0 0 468 222.5;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill-rule:evenodd;clip-rule:evenodd;fill:%23FFFFFF;%7D%0A%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M6.796 7.639c0-1.03.845-1.427 2.245-1.427 2.008 0 4.544.608 6.552 1.691V1.695C13.4.823 11.234.479 9.041.479 3.678.48.111 3.28.111 7.956c0 7.292 10.04 6.13 10.04 9.273 0 1.215-1.057 1.611-2.536 1.611-2.193 0-4.993-.898-7.213-2.113v6.288a18.315 18.315 0 007.213 1.506c5.495 0 9.273-2.722 9.273-7.45-.027-7.873-10.092-6.473-10.092-9.432z'/%3E%3Cpath class='st0' d='M6.796 7.639c0-1.03.845-1.427 2.245-1.427 2.008 0 4.544.608 6.552 1.691V1.695C13.4.823 11.234.479 9.041.479 3.678.48.111 3.28.111 7.956c0 7.292 10.04 6.13 10.04 9.273 0 1.215-1.057 1.611-2.536 1.611-2.193 0-4.993-.898-7.213-2.113v6.288a18.315 18.315 0 007.213 1.506c5.495 0 9.273-2.722 9.273-7.45-.027-7.873-10.092-6.473-10.092-9.432z'/%3E%3C/g%3E%3C/svg%3E"); /* stylelint-disable-line function-url-quotes */
+    background-size: 380px;
+}
+
+.fkwcs_connect_mn_btn, .fkwcs_connect_hide_btn {
+    text-decoration: underline;
+    color: inherit;
+    font-size: 12px;
+}
+
+.account_status .fkwcs_connect_mn_btn, .account_status .fkwcs_connect_hide_btn {
+    color: #2271b1;
+    font-size: 14px;
+}
+
+#wpfooter {
+    display: block !important;
+}
+
+.theme-neve .entry-summary > form.cart, .theme-blocksy form.cart .ct-cart-actions, .theme-neve .woocommerce .wc-proceed-to-checkout, .theme-neve.woocommerce.single .woocommerce-variation-add-to-cart {
+    display: initial !important;
+}
+
+form.cart button.single_add_to_cart_button {
+    --item-order: initial !important;
+    flex: initial;
+}
+
+.theme-blocksy form.cart #fkwcs-payment-request-wrapper.fkwcs-product.below, .theme-blocksy form.cart #fkwcs-payment-request-wrapper.fkwcs-product.below .fkwcs-payment-request-button-wrapper, .theme-blocksy form.cart #fkwcs-payment-request-wrapper.fkwcs-product.below .fkwcs-payment-request-custom-button-render {
+    width: 100% !important;
+}
+
+@keyframes fkwcs_shine {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(50%);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #fkwcs-payment-request-wrapper.fkwcs-product.sticky .fkwcs-payment-request-custom-button-render, #fkwcs-payment-request-wrapper.fkwcs-product.sticky .fkwcs-payment-request-button-wrapper {
+        width: 100% !important;
+    }
+
+    #fkwcs-payment-request-wrapper.fkwcs-product.sticky #fkwcs-payment-request-separator {
+        display: none !important;
+    }
+
+    #fkwcs-payment-request-wrapper.sticky .fkwcs-payment-request-custom-button-render {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+.wc-connect-stripe-help {
+    margin-top: 10px;
+}
+
+div#fkwcs_stripe_smart_button.fkwcs_disabled_btn button {
+    background: gray;
+}
+
+#fkwcs_custom_express_button {
+    max-width: 100%;
+}
+
+#fkwcs_stripe_smart_button_wrapper:not(.inline) #fkwcs_custom_express_button .fkwcs_smart_buttons {
+    min-height: 40px;
+    min-width: 100px;
+}
+
+#fkwcs_custom_express_button .fkwcs_smart_buttons {
+    position: relative;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    font-size: 16px;
+    width: 100%;
+}
+
+#fkwcs_custom_express_button .fkwcs_ec_googlepay_button {
+    position: relative;
+    min-height: 32px;
+    max-height: 64px;
+    border: 0;
+    cursor: pointer;
+}
+
+#fkwcs_custom_express_button .fkwcs_ec_googlepay_button_logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 27.5vh 7.375vw;
+    background-origin: content-box;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#fkwcs_custom_express_button .fkwcs_ec_googlepay_button--dark {
+    background-color: #000 !important;
+}
+
+#fkwcs_custom_express_button .fkwcs_ec_googlepay_button--dark:active {
+    background-color: #000;
+}
+
+#fkwcs_custom_express_button .fkwcs_ec_googlepay_button--light, #fkwcs_custom_express_button .fkwcs_ec_googlepay_button--light-outline {
+    background-color: #fff !important;
+}
+
+#fkwcs_custom_express_button .fkwcs_ec_googlepay_button--light:active, #fkwcs_custom_express_button .fkwcs_ec_googlepay_button--light-outline:active {
+    background-color: #fff;
+}
+
+#fkwcs_custom_express_button .fkwcs_ec_payment_button-dark, #fkwcs_custom_express_button .fkwcs_ec_payment_button-dark:hover {
+    background: #32325d !important;
+    color: #fff !important;
+}
+
+#fkwcs_custom_express_button .fkwcs_ec_payment_button-dark, #fkwcs_custom_express_button .fkwcs_ec_googlepay_button-dark, #fkwcs_custom_express_button .fkwcs_ec_applepay_button-dark {
+    color: #fff !important;
+}
+
+#fkwcs_custom_express_button .fkwcs_ec_payment_button-light, #fkwcs_custom_express_button .fkwcs_ec_googlepay_button-light, #fkwcs_custom_express_button .fkwcs_ec_applepay_button-light, #fkwcs_custom_express_button .fkwcs_ec_payment_button-light-outline, #fkwcs_custom_express_button .fkwcs_ec_googlepay_button-light-outline, #fkwcs_custom_express_button .fkwcs_ec_applepay_button-light-outline {
+    color: #39325c !important;
+    border: solid 1px #ebebeb !important;
+}
+
+#fkwcs_custom_express_button .fkwcs_express_checkout_button_content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fkwcs_custom_express_button span img.fkwcs_express_checkout_button_icon {
+    flex-shrink: 0;
+    z-index: 10;
+    will-change: opacity;
+    margin: 0 -1px -1px 7px !important;
+    width: 40px !important;
+    vertical-align: middle;
+}
+
+#fkwcs_custom_express_button .fkwcs-express_checkout_button_content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fkwcs_stripe_smart_button_wrapper {
+    display: none;
+}
+
+#fkwcs_stripe_smart_button_wrapper.right #fkwcs-payment-request-title {
+    margin-left: auto;
+    margin-right: -2px;
+    padding: 0 2px;
+}
+
+#fkwcs-expresscheckout-fieldset {
+    border: 1px solid #E5E5E5;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+#fkwcs-expresscheckout-fieldset #fkwcs-payment-request-title {
+    background: #fff;
+    width: max-content;
+    max-width: calc(100% - 50px);
+    margin: 0;
+    display: inline-block;
+    transform: translateY(-33px);
+}
+
+/* new css */
+#fkwcs_stripe_smart_button fieldset {
+    border: 1px solid #e6e6e6;
+    margin: 0;
+    border-radius: 5px;
+    padding: 15px 25px 15px;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+    min-height: 99px;
+    width: 100%;
+}
+
+#fkwcs_stripe_smart_button fieldset legend {
+    padding: 0 1em;
+    margin: 0 auto;
+    display: block;
+    background: 0 0;
+    font-weight: 400;
+    text-transform: inherit;
+    width: auto;
+    border: none;
+}
+
+#fkwcs_stripe_smart_button_wrapper {
+    clear: both;
+    margin-bottom: 25px;
+}
+
+#fkwcs_stripe_smart_button_wrapper.cart {
+    margin: 0;
+}
+
+div#fkwcs-payment-request-separator {
+    margin: 25px 0 25px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #737373;
+    line-height: 16px;
+    background: 0 0;
+    position: relative;
+    z-index: 9;
+}
+
+fieldset#fkwcs-expresscheckout-fieldset {
+    margin-bottom: 25px;
+}
+
+div#fkwcs-payment-request-separator:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #e6e6e6;
+    top: 8px;
+    z-index: -99;
+    max-width: 45%;
+}
+
+div#fkwcs-payment-request-separator:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: #e6e6e6;
+    top: 8px;
+    z-index: -99;
+    max-width: 45%;
+}
+
+div#fkwcs-payment-request-separator label {
+    background: 0 0;
+    position: relative;
+    padding: 0 5px;
+    color: #737373;
+    font-size: 13px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 921px) {
+    #fkwcs-expresscheckout-fieldset #fkwcs-payment-request-title {
+        transform: translateY(-28px);
+    }
+}

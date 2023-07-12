@@ -1,0 +1,39 @@
+.o-container {
+  @include container;
+
+  @media (min-width: 36em) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 46em) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 61em) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 81em) {
+    max-width: 1252px;
+  }
+}
+
+.o-container--half-padding {
+  @include container-half-padding;
+
+  @media (min-width: 36em) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 46em) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 61em) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 81em) {
+    max-width: 1252px;
+  }
+}
